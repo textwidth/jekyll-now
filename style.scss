@@ -69,6 +69,7 @@ p {
 }
 p::first-line {
   margin: 5px 0;
+  background-color: blue;
 }
 
 a {
@@ -284,6 +285,11 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+.time-my-ass {
+font-weight: bold;
+font-family: Georgia;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
