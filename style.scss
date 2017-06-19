@@ -73,6 +73,10 @@ p {
     padding-left: 75px;
 }
 
+.entry p {
+    text-indent: -75px;
+}
+
 a {
     color: $blue;
     text-decoration: none;
