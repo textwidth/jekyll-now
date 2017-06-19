@@ -69,12 +69,12 @@ p {
 }
 
 .fwd {
-    text-indent: -80px;
-    padding-left: 80px;
+    text-indent: -75px;
+    padding-left: 75px;
 }
 
 .rwd {
-    padding-left: 80px;
+    padding-left: 75px;
 }
 
 a {
@@ -294,7 +294,9 @@ footer {
 
 .time-my-ass {
     font-weight: bold;
+    font-size: 150%
     font-family: Georgia;
+    color: #700000;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
