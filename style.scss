@@ -68,15 +68,9 @@ p {
     margin: 15px 0;
 }
 
-$('.entry p .time').parent().addClass('p-class');
-
-.entry p + .time-my-ass {
+.entry p .fwd {
     text-indent: -75px;
     padding-left: 75px;
-}
-
-.p-class {
-    font-color: red;
 }
 
 a {
