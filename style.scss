@@ -57,8 +57,11 @@ h2 {
 }
 
 h3 {
-    color: inherit;
     font-size: 20px;
+    a {
+        color: inherit;
+        font-weight: 800;
+    }
 }
 
 h4 {
@@ -71,12 +74,12 @@ p {
 }
 
 .fwd {
-    text-indent: -81px;
-    padding-left: 81px;
+    text-indent: -77px;
+    padding-left: 77px;
 }
 
 .rwd {
-    padding-left: 81px;
+    padding-left: 77px;
 }
 
 a {
@@ -84,7 +87,8 @@ a {
     text-decoration: none;
     cursor: pointer;
     &:hover, &:active {
-        color: $blue;
+        text-decoration: underline;
+/**        color: $blue; **/
     }
 }
 
