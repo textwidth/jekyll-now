@@ -68,7 +68,7 @@ p {
     margin: 15px 0;
 }
 
-.entry p ~ .time-my-ass {
+.entry p + .time-my-ass {
     text-indent: -75px;
     padding-left: 75px;
 }
